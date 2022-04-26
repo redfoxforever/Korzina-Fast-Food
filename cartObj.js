@@ -4,35 +4,35 @@ function cartObj() {
   const priceList = {
     1: {
       'Lavash': {
-        info: ' big cheese ',
+        info: 'big cheese',
         price: 15000
       },
       'Hot-dog': {
-        info: ' mini ',
+        info: 'mini',
         price: 15000
       },
       'Cola': {
-        info: ' 1.5 L',
+        info: '1.5 L',
         price: 9000
       },
     },
     2: {
       'Sushi': {
-        info: ' max-roll ',
+        info: 'max-roll',
         price: 32000
       },
       'Soya': {
-        info: ' 200ml',
+        info: '200ml',
         price: 5000
       },
     },
     3: {
       'Pizza': {
-        info: ' Pepperoni ',
+        info: 'Pepperoni',
         price: 45000
       },
       "Fanta": {
-        info: ' 1.5 L',
+        info: '1.5 L',
         price: 9000
       }
     }

@@ -5,11 +5,11 @@ product = ""
 
 for (const key in cheque) {
   // console.log(key); // Lavash Hot-dog Cola
-  product += key
+  product += key + " "
   // console.log(cheque[key]); // { info: 'big cheese', price: 15000 } 
   for (const keyID in cheque[key]) {    
     if (keyID == 'info') {
-      product += cheque[key][keyID]
+      product += cheque[key][keyID] + " "
     } else if (keyID == 'price') {
       total += cheque[key][keyID]      
     }
